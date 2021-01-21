@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+
+.header{
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.header p {
+    justify-content: center;
+    font-family: 'Open Sans';
+     margin-right: 200px;
+}
+
+.logo-nav-container{
+    text-align: center;
+}
+
+.navigation ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navigation a {
+    display: block;
+    padding: 1em;
+    background-color: white;
+    text-decoration: none;
+    color: #191C26;
+}
+.navigation a:hover {
+    background-color: crimson;
+}
+.navigation ul li ul {
+    display: none;
+}
+.navigation ul li a:hover + ul, .navigation ul li ul:hover {
+    display: block;
+    position: absolute;
+}
+
+.title{
+    letter-spacing: 5.5px;
+    font-size: 20px;
+}
+
+#buscador a> img{
+    justify-content: center;
+    cursor: pointer;
+}
+
+input{
+    border: 1px solid crimson;
+    font-family: 'Open Sans';
+    margin-right: 5px;
+    height: 25px;
+
+}
+
+
+/**Main**/
+
+.imagenFondo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imagenFondo > img{
+    object-fit: cover;
+    width: 100%;
+    height: 54rem;
+}
+
+.informacion{
+
+    width: 100%;
+    height: min-content;
+    position: absolute;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.informacion > *{
+    /*width: 100%;*/
+    left: 50%;
+    /*vertical-align:auto;*/
+    font-family: 'Open Sans';
+}
+
+.informacion > p{
+    font-size: x-large;
+    background-color: crimson;
+    margin: 0 10px;
+    margin-left: 50px;
+
+}
+
+.ofertas{
+    border-radius: 5px;
+    background-color: crimson;
+    color: black;
+    border: 1px solid black;
+    height: 5vh;
+    width: 20vh;
+    box-shadow: 0px 0px 10px 1px crimson;
+}
+
+.formulario{
+    /*margin-left: 80px;
+    margin-top: 150px;*/
+    width: 100%;
+    height: min-content;
+    left: 0%;
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+#formularioRegistro{
+    border: 1px solid crimson;
+    background: rgb(0, 0, 0,  0.8);
+    color: white;
+    width: 30rem;
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 1px crimson;
+    margin: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+#itNombre, #itApellidos, #itDNI, #itDireccion, #itTelefono, #itCorreo{
+    margin: 10px 0;
+    width: 93%;
+    border: 3px solid;
+    font-family: 'Open Sans';}
+
+.errores{
+    padding-top: 15px;
+    margin-left: 5px;
+    display: none;
+}
+
+select{
+    margin-bottom: 15px;
+    border: 2px solid;
+}
+
+
+.inscribete{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnEnviar{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    align-items: center;
+    border: black;
+    background: crimson;
+    height: 30px;
+    width: 20rem;
+    box-shadow: 0px 0px 8px 1px black;
+}
+
+.checked{
+    width: min-content;
+    margin-right: 1rem;
+}
+
+.legal{
+    font-size: 12px;
+}
+
+.informacion > video{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+            /*Servicios*/
+.servicios{
+    display: none;
+}
+
+#servicio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+    background: black;
+    justify-content: space-around;
+}
+
+.servicio{
+    display: inline;
+    width: 300px;
+    height: 20rem;
+    margin: 1vw;
+    font-size: large;
+    font-family: 'Open Sans';
+    border: 1px solid black;
+    text-align: center;
+    background: crimson;
+    padding: 5px;
+}
+
+.testimonios{
+    color: white;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    /*display: none;*/
+}
+
+#testimonio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: min-content;
+    background: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonio{
+    display: inline;
+    width: 300px;
+    height: 30rem;
+    margin: 1vw;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    text-align: center;
+    background: crimson;
+    padding: 5px;
+    color: white;
+}
+
+/*******SCROLL TOP********/
+#subir{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background:red;
+    right:0;
+    bottom:0;
+    position:fixed;
+    margin-right:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color: white;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+  }
+  span{
+    transition:.5s;  
+  }
+  #subir:hover span{
+    transform:rotate(360deg);
+  }
+  #subir:active{
+    transform:scale(1.1);
+  }
+
+
+/*Tablet view*/
+@media all and (min-width: 768px) {
+        /**Header**/
+    /*.header{
+        background: crimson;
+    }*/
+
+
+    .logo-nav-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navigation{
+        justify-content: space-around;
+    }
+
+    .informacion > video{
+        margin-top: 0;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+/*Desktop View*/
+
+@media all and (min-width: 1024px) {
+    /**Header**/
+    /*.header{
+        background: crimson;
+    }*/
+
+    .informacion{
+        width: 50%;
+
+    }
+
+    .formulario{
+        width: 50%;
+        left: 50%;
+        position: absolute;
+        top: 25%;
+        background: none;
+    }
+
+}

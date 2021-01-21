@@ -1,0 +1,15 @@
+{"Servicios":[{
+     "Servicio":"CARNICERIA", "ImgServicio":"img/carne.png", "Descripcion":"La mejores carnes, procesadas y cuidadas en las mejores granjas del pais. Pollo, vaca, cerdo, etc"},
+    {"Servicio":"PESCADERIA", "ImgServicio":"img/pescado.png", "Descripcion":"Pescados, mariscos recogidos en el Oceano Atlantico y vendidos en nuestros supermercados"},
+    {"Servicio":"VERDULERIA", "ImgServicio":"img/verduras.png", "Descripcion":"Verduras ecologicas de nuestros mejores granjeros, traidas para nuestros mejores clientes"}],
+   
+
+    "Reseñas":[{
+    "ImgCliente":"img/cliente.png", "NomCliente": "Jose Fernandez", "Comentario": "La merluza esta exquisita y muy buen precio", "Fecha": "10/01/2021"},
+    {"ImgCliente":"img/cliente.png", "NomCliente": "Encarni Ortiz", "Comentario": "Las verduras siempren estan frescas", "Fecha": "1/01/2021"},
+    {"ImgCliente":"img/cliente.png", "NomCliente": "Jose Ramon Fernandez", "Comentario": "Muy buen sabor de la carne y con gran textura", "Fecha": "31/12/2020"},
+    {"ImgCliente":"img/cliente.png", "NomCliente": "Sergio Torres", "Comentario": "Los empleados son muy amables y ejemplares", "Fecha": "19/01/2021"},
+    {"ImgCliente":"img/cliente.png", "NomCliente": "Alex Fernandez", "Comentario": "Siempre compro el pollo aqui porque es un sabor increible", "Fecha": "18/01/2021"},
+    {"ImgCliente":"img/cliente.png", "NomCliente": "Mario Lopez", "Comentario": "Todos los productos son dignos de estos supermercados", "Fecha": "17/01/2021"}
+]
+}
